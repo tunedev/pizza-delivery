@@ -2,6 +2,6 @@
  * the entry of the app
  */
 
-const server = require('./lib/server');
+import server from './lib/server.mjs';
 
 server.init();
